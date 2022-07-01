@@ -28,7 +28,6 @@ class DataImunisasiCRUDDataTypeAdded extends Seeder
             }
 
             \DB::table('badaso_data_types')->insert(array (
-                'id' => 4,
                 'name' => 'data_imunisasi',
                 'slug' => 'data-imunisasi',
                 'display_name_singular' => 'Data Imunisasi',
@@ -42,13 +41,13 @@ class DataImunisasiCRUDDataTypeAdded extends Seeder
                 'order_direction' => NULL,
                 'generate_permissions' => true,
                 'server_side' => false,
-                'is_maintenance' => 0,
                 'description' => NULL,
                 'details' => NULL,
                 'notification' => '[]',
                 'is_soft_delete' => false,
-                'created_at' => '2022-06-02T05:56:24.000000Z',
-                'updated_at' => '2022-06-02T06:00:38.000000Z',
+                'updated_at' => '2022-06-02T16:20:31.000000Z',
+                'created_at' => '2022-06-02T16:20:31.000000Z',
+                'id' => 9,
             ));
 
             Badaso::model('Permission')->generateFor('data_imunisasi');

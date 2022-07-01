@@ -25,8 +25,8 @@ class BadasoDeploymentOrchestratorSeeder extends Seeder
         $this->seed(DataIbuHamilCRUDDataRowAdded::class);
         $this->seed(DataBalitaCRUDDataTypeAdded::class);
         $this->seed(DataBalitaCRUDDataRowAdded::class);
-        $this->seed(DataImunisasiCRUDDataTypeAdded::class);
-        $this->seed(DataImunisasiCRUDDataRowAdded::class);
+        
+        
         $this->seed(DataKaderCRUDDataTypeAdded::class);
         $this->seed(DataKaderCRUDDataRowAdded::class);
         $this->seed(DataPelayananIbuhamCRUDDataTypeAdded::class);
@@ -35,5 +35,8 @@ class BadasoDeploymentOrchestratorSeeder extends Seeder
         $this->seed(DataPenimbanganBalitaCRUDDataRowAdded::class);
         $this->seed(LaporanKegPosyanduCRUDDataTypeAdded::class);
         $this->seed(LaporanKegPosyanduCRUDDataRowAdded::class);
+        $this->seed(DataImunisasiCRUDDataDeleted::class);
+        $this->seed(DataImunisasiCRUDDataTypeAdded::class);
+        $this->seed(DataImunisasiCRUDDataRowAdded::class);
     }
 }
